@@ -1,4 +1,7 @@
-<?php require_once "validador_acesso.php" ?>
+<?php 
+  require_once "validador_acesso.php";
+  
+?>
 
 <html>
   <head>
@@ -24,7 +27,7 @@
         App Help Desk
       </a>
       <ul class="navbar-nav">
-        <li>
+        <li class="nav-item">
           <a class="nav-link" href="logoff.php">SAIR</a>
         </li>
       </ul>
@@ -44,11 +47,10 @@
                   <a href="abrir_chamado.php">
                     <img src="formulario_abrir_chamado.png" width="70" height="70">
                   </a>
-                 
                 </div>
                 <div class="col-6 d-flex justify-content-center">
                   <a href="consultar_chamado.php">
-                  <img src="formulario_consultar_chamado.png" width="70" height="70">
+                    <img src="formulario_consultar_chamado.png" width="70" height="70">
                   </a>
                 </div>
               </div>

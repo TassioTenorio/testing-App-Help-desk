@@ -24,7 +24,7 @@
         App Help Desk
       </a>
       <ul class="navbar-nav">
-        <li>
+        <li class="nav-item">
           <a class="nav-link" href="logoff.php">SAIR</a>
         </li>
       </ul>
@@ -70,7 +70,7 @@
                       </div>
 
                       <div class="col-6">
-                        <button class="btn btn-lg btn-info btn-block" type="submit">Abrir</button> >
+                        <button class="btn btn-lg btn-info btn-block" type="submit">Abrir</button>
                       </div>
                     </div>
                   </form>
